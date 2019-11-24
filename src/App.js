@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {data} from './data'
 
@@ -11,14 +10,14 @@ function App() {
   const [searchResults, setSearchResults] = useState([])
 
   const queryData = data.map(trip => trip.title)
-  const people = [
-    "Siri",
-    "Alexa",
-    "Google",
-    "Facebook",
-    "Twitter",
-    "Linkedin",
-    "Sinkedin"
+  const myQuery = [
+    "dupa",
+    "zupa",
+    "kalafior",
+    "trzeba umyc podlogi",
+    "zrobic pranie",
+    "zrobic dodawanie do ulubionych",
+    "skonczyc sprint",
   ];
 
 
